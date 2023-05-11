@@ -1,0 +1,70 @@
+/* style.css */
+body {
+    font-family: "Helvetica", Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: orange;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .section-title {
+    color: orange;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .section-content {
+    color: #ccc;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .btn {
+    background-color: orange;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff8c00;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Add additional styles for other elements as needed */
+  

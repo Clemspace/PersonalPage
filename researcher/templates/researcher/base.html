@@ -1,0 +1,24 @@
+<!-- base.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clément Castellon, AI Enthusiast Website</title>
+  <!-- Add CSS stylesheets and JavaScript scripts -->
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+  <!-- Add lateral navigation bar --> 
+  {% include 'researcher/navigation.html' %}
+  <!-- Navigation links -->
+  
+
+  <!-- Content specific to each page -->
+  <div class="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+</body>
+</html>
